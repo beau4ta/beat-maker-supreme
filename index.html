@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beat Maker Supreme</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <h1 class="title">Beat Maker Supreme</h1>
+  <div class="drums">
+    <div class="bpm">
+        <h4 class="bpm">BPM</h4>
+       <form name="BPM">
+           <div class="input">
+           <input 
+            type="range"
+            name="bpmInput"
+            class="bpm"
+            id="bpmInputId"
+            value="120"
+            min="0"
+            max="240"
+            oninput="bpmOutputId.value = bpmInputId.value"
+            />
+            <output 
+            name="bpmOutput"
+            id="bpmOutputId"
+            >120</output>
+        </div>
+       </form>
+    </div>
+    <h4 class="bass">808</h4>
+    <div class="bass">
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+    </div>
+    <h4 class="snare">Snare</h4>
+    <div class="snare">
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+    </div>
+    <h4 class="closedhh">Closed Hi-Hat</h4>
+    <div class="closedhh">
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+    </div>
+    <h4 class="openhh">Open Hi-Hat</h4>
+    <div class="openhh">
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+    </div>
+    <h4 class="kick">Kick</h4>
+    <div class="kick">
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+      <input class="big-checkbox" type="checkbox" />
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.26/Tone.js"></script>
+  <script src="script.js"></script>
+  <body></body>
+</html>
